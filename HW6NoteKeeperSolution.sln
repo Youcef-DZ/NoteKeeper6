@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW6NoteKeeper", "HW6NoteKeeper\HW6NoteKeeper.csproj", "{ABE49558-B255-40B0-8C04-14EF7914BBC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW6AzureFunctions", "HW6AzureFunctions\HW6AzureFunctions.csproj", "{463C498E-09B4-43AA-A529-72B2FEEC7626}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABE49558-B255-40B0-8C04-14EF7914BBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE49558-B255-40B0-8C04-14EF7914BBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE49558-B255-40B0-8C04-14EF7914BBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE49558-B255-40B0-8C04-14EF7914BBC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{463C498E-09B4-43AA-A529-72B2FEEC7626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463C498E-09B4-43AA-A529-72B2FEEC7626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463C498E-09B4-43AA-A529-72B2FEEC7626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463C498E-09B4-43AA-A529-72B2FEEC7626}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3DA3E31-5D85-489E-BF5B-7D9FFF278D7D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+Assignment #4 NoteKeeper
+.NET 8 based ASP.NET Core Web API project with Azure Function
+
+Youcef Laidi
+yol061@g.harvard.edu
+ylaidi2@outlook.com
+
+Azure WebApp: https://notekeeper4.azurewebsites.net/
+Azure Function: https://fappzip.azurewebsites.net/
+
+Nothing special in running the applitcaion. Open the VS solution and hit F5 to build, Debug to run.
+
+I did Extra Credit 1
+Azure WebApp: https://notekeeper4ex1.azurewebsites.net/
+Azure Function: https://fapp-ex1.azurewebsites.net

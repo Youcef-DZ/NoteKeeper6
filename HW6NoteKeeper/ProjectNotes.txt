@@ -1,0 +1,17 @@
+Assignment #3 NoteKeeper with SQL Database and Blob Storage
+.NET 8 based ASP.NET Core Web API project
+
+Youcef Laidi
+yol061@g.harvard.edu
+ylaidi2@outlook.com
+
+Nothing special in running the applitcaion. Open the VS solution and hit F5 to build, Debug to run.
+
+I have added the Extra Credit Option 1: Log custom telemetry into application insights.
+
+URL on Azure: https://app-notekeeper3.azurewebsites.net/
+Azure SQL Server: sql-ylaidi2
+Azure SQL Database: sqldb-hw2
+Azure Storage account: stgnotekeeper3
+Application Insights instance: NoteKeeperAppInsights
+
