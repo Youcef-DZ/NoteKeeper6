@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
 using System.Reflection;
+using Microsoft.Extensions.Azure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -91,6 +92,11 @@ builder.Services.AddSingleton(implementationInstance: storageConnectionString);
 LimitSettings limitSettings = new();
 builder.Configuration.GetSection(nameof(LimitSettings)).Bind(limitSettings);
 builder.Services.AddSingleton(implementationInstance: limitSettings);
+builder.Services.AddAzureClients(clientBuilder =>
+{
+    clientBuilder.AddBlobServiceClient(builder.Configuration["ConnectionStrings:DefaultStorageConnection:blob"]!, preferMsi: true);
+    clientBuilder.AddQueueServiceClient(builder.Configuration["ConnectionStrings:DefaultStorageConnection:queue"]!, preferMsi: true);
+});
 
 
 
